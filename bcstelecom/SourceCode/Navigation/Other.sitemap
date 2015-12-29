@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/OtherDummy.aspx" title="Home" description=""  keywords="" >
+		<siteMapNode url="~/Login.aspx" title="Login" PageHeader="Login" />
+
+		<siteMapNode url="~/Pages/User/Profile.aspx" title="Profile"  PageHeader="Profile" />
+
+		<siteMapNode url="~/Pages/Admin/Dashboard.aspx" title="Dashboard" PageHeader="Dashboard" />
+		<siteMapNode url="~/ForgotPassword.aspx" title="Password Recovery" PageHeader="Password Recovery" />
+		<siteMapNode url="~/Pages/Members/ChangePassword.aspx" title="Change Password" PageHeader="Change Password"  />
+		<siteMapNode url="~/Pages/Admin/AddEditUser.aspx" title="Add/Edit User" PageHeader="Add/Edit User" />
+
+		<siteMapNode url="~/Pages/Admin/ResetPassword.aspx" title="Reset Password" PageHeader="Reset Password" />
+		<siteMapNode url="~/Pages/Admin/EditProfile.aspx" title="Edit Profile" PageHeader="Edit Profile" />
+		<siteMapNode url="~//Pages/Setup/AddEditCategory.aspx" title="Add Edit New Photo Album" PageHeader="Add Edit New Photo Album" />
+
+		
+		<siteMapNode url="~/Pages/User/NewsDetails.aspx" title="News Details" PageHeader="News Details" />
+		<siteMapNode url="~/Pages/User/EventDetails.aspx" title="Event Details" PageHeader="Event Details" />
+		<siteMapNode url="~/Pages/User/Events.aspx" title="Event" PageHeader="Event" />
+
+		<siteMapNode url="~/Pages/Members/Profile.aspx" title="Profile"  PageHeader="Profile" />
+		<siteMapNode url="~/PollResults" title="Poll Result"  PageHeader="Poll Result" />
+		
+		<siteMapNode url="~/Pages/Setup/AddEditResource.aspx" title="Add/Edit Resource"  PageHeader="Add/Edit Resource" />
+		<siteMapNode url="~/Pages/Setup/AddEditAdvertisement.aspx" title="Add/Edit Advertisement"  PageHeader="Add/Edit Advertisement" />
+		<siteMapNode url="~/Pages/Setup/AddEditMessage.aspx" title="Add/Edit Message"  PageHeader="Add/Edit Message" />
+		<siteMapNode url="~/Pages/Setup/AddEditPhotoGallery.aspx" title="Add/Edit Photo"  PageHeader="Add/Edit Photo" />
+
+		<siteMapNode url="~/Pages/User/MemberSearchResult.aspx" title="Member Directory"  PageHeader="Member Directory" />
+		
+		
+		<siteMapNode url="~/Pages/Admin/HeaderAddEdit.aspx" title="Header Add/Edit"  PageHeader="Header Add/Edit" />
+		<siteMapNode url="~/Pages/Admin/ResourceAddEdit.aspx" title="Resource Add/Edit"  PageHeader="Resource Add/Edit" />
+		<siteMapNode url="~/Pages/Admin/DesignationAddEdit.aspx" title="Designation Add/Edit"  PageHeader="Designation Add/Edit" />
+		<siteMapNode url="~/Pages/Admin/AddEditYear.aspx" title="Year Add/Edit"  PageHeader="Year Add/Edit" />
+		<siteMapNode url="~/Pages/Admin/ExecutiveCommitteeAddEdit.aspx" title="Executive Committee Add/Edit"  PageHeader="Executive Committee Add/Edit" />
+
+		<siteMapNode url="~/Pages/Admin/AddEditBanner.aspx" title="Banner Add/Edit"  PageHeader="Banner Add/Edit" />
+
+
+		<siteMapNode url="~/Pages/Security/EditUser.aspx" title="Edit User"  PageHeader="Edit User" />
+		<siteMapNode url="~/Pages/Security/ResetPassword.aspx" title="Reset Password"  PageHeader="Reset Password" />
+		<siteMapNode url="~/Pages/Security/ChangePassword.aspx" title="Change Password"  PageHeader="Change Password" />
+		
+	</siteMapNode>
+
+</siteMap>

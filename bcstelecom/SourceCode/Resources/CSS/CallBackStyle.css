@@ -1,0 +1,50 @@
+.CallBackLoading
+{
+  background-color: #F5F3E5;    
+  border: 1px solid black; 
+  width: 650px;
+  height: 498px;
+}
+
+.CallBackLoading2
+{
+  background-color: #F5F3E5;    
+  border: 1px solid black; 
+  width: 300px;
+  height: 200px;
+}
+
+
+.CallBackLoadingTitle
+{
+  background-color:#7D9459;
+  background-image:url(../../Resources/Images/title_bg.gif);
+  border-width: 0px;
+  border-bottom: 1px solid black; 
+  font-family:verdana;
+  font-size:11px;
+  height: 24px;
+}
+
+.CallBackLoadingHeader
+{
+  background-color:#E3E0CD;
+  background-image:url(../../Resources/Images/header_bg.gif);
+  border-width: 0px;
+  border-bottom: 1px solid #ACA899; 
+  font-family:Verdana;
+  font-size:11px;
+  height: 21px;
+}
+
+.CallBackLoadingBody
+{
+  background-color:#F5F3E5;
+  height: 445px;
+}
+
+.CallBackLoadingBody2
+{
+  background-color:#F5F3E5;
+  height: 250px;
+}

@@ -1,0 +1,93 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="MasterPages_Admin" %>
+
+<%@ Register Src="~/UserControls/MessagePanel.ascx" TagPrefix="VITL" TagName="MessagePanel" %>
+<%@ Register Src="~/UserControls/Header.ascx" TagName="Header" TagPrefix="VIT" %>
+<%@ Register Src="~/UserControls/Footer.ascx" TagName="Footer" TagPrefix="VIT" %>
+<%@ Register Src="~/UserControls/Menu.ascx" TagName="Menu" TagPrefix="VIT" %>
+<%@ Register Src="~/UserControls/AdminMenu.ascx" TagName="AdminMenu" TagPrefix="uc" %>
+<!DOCTYPE HTML>
+<html lang="en">
+<head id="Head1" runat="server" enableviewstate="false">
+    <meta charset="UTF-8">
+    <title>BCS Telecom Samity</title>
+    <link href="../Resources/CSS/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="~/Resources/Images/Common/favicon.ico" />
+    <script type="text/jscript" src="../../Resources/JS/jquery-2.1.3.min.js"></script>
+    <script type="text/jscript" src="../../Resources/JS/bootstrap.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"> </script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"> </script>
+        <![endif]-->
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div class="header-bg clearfix">
+        <VIT:Header ID="Header1" runat="server"></VIT:Header>
+    </div>
+    <div class="menu-bg clearfix">
+        <div class="container">
+            <div class="">
+                <VIT:Menu ID="Menu1" runat="server"></VIT:Menu>
+            </div>
+        </div>
+    </div>
+    <div class="main-contant clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3">
+                    <div>
+                        <div class="my-profile">
+                            <div class="admin-avatar">
+                                <asp:HyperLink runat="server" ID="lnkHome" NavigateUrl="~/Pages/Admin/Dashboard.aspx"
+                                    CssClass="my-profile-pic" ToolTip="Show Dashboard">
+                                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Resources/Images/avatar/admin_avater.png"
+                                        AlternateText="" />
+                                </asp:HyperLink>
+                            </div>
+                            <div class="admin-user-content">
+                                <h4 class="first-child">
+                                    Welcome <strong>
+                                        <asp:LoginName ID="LoginName1" runat="server"></asp:LoginName>
+                                    </strong>
+                                </h4>
+                                <span>
+                                    <asp:HyperLink runat="server" ID="HyperLink1" NavigateUrl="~/Pages/Admin/Dashboard.aspx">Home</asp:HyperLink>
+                                    |
+                                    <asp:HyperLink runat="server" ID="lnkChangePassword" NavigateUrl="~/Pages/Security/ChangePassword.aspx">Change Password</asp:HyperLink>
+                                    |
+                                    <asp:Button CssClass="btn-logout" runat="server" ID="btnLogOut" Text="Logout" OnClick="btnLogOut_Click" />
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <uc:AdminMenu ID="AdminMenu" runat="server" />
+                </div>
+                <div class="col-md-9  col-lg-9">
+                    <asp:Panel runat="server" ID="pnlPageHeader">
+                        <div class="page-content-header">
+                            <h1>
+                                <asp:Literal ID="lit_PageHeader" runat="server" /></h1>
+                        </div>
+                    </asp:Panel>
+                    <asp:UpdateProgress ID="UpdateProgress1" runat="server">
+                        <ProgressTemplate>
+                            <asp:Image CssClass="updateprogress-img" ID="ImgUpdateProgress" runat="server" ImageUrl="~/Resources/Images/Common/ajax-loader-site.gif" />
+                        </ProgressTemplate>
+                    </asp:UpdateProgress>
+                    <VITL:MessagePanel runat="server" ID="MessagePanel1" />
+                    <asp:ContentPlaceHolder ID="cphContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+    <VIT:Footer ID="Footer1" runat="server"></VIT:Footer>
+    </form>
+</body>
+</html>

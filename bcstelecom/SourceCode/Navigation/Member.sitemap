@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/MemberDummy.aspx" title="Home" description="" >
+
+    <siteMapNode url="~/Dashboard" title="Dashboard" PageHeader="Dashboard" description=""  keywords="" />
+	  <siteMapNode url="~/Profile" title="Profile" PageHeader="Profile" description=""  keywords="" />
+    <siteMapNode url="~/PhotoGallery" title="Photo Gallery" PageHeader="Photo Gallery" description=""  keywords=" "  />
+    <siteMapNode url="~/Poll" title="Poll" PageHeader="Poll" description=""  keywords=" "  />
+    <siteMapNode url="~/MemberDirectory.aspx" title="Member Directory" PageHeader="Member Directory" description=""  keywords=" "  />
+    <siteMapNode url="http://mail.bcstelecom.org.bd/" title="Web Mail" PageHeader="Web Mail" description=""  keywords=" " />
+
+  </siteMapNode>
+
+</siteMap>

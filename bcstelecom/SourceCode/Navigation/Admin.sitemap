@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/AdminDummy.aspx" title="Home" description="" >
+
+		<!--<siteMapNode url="~/Pages/AdminHome.aspx" title="Home" PageHeader="Home" description=""  keywords="" />-->
+
+		<siteMapNode url="" title="Setup"  PageHeader="Setup" >
+			<siteMapNode url="~/Pages/Setup/AddEditContent.aspx" title="Content Setup"  PageHeader="Content Setup" description=""  keywords="" />
+			<siteMapNode url="~/Pages/Admin/HeaderSetup.aspx" title="Header Setup"  PageHeader="Header Setup" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Admin/Designation.aspx" title="Designation Setup"  PageHeader="Designation Setup" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Admin/YearList.aspx" title="Year"  PageHeader="Year" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Admin/ExecutiveCommittee.aspx" title="Executive Committee"  PageHeader="Executive Committee" description=""  keywords=""  />
+		</siteMapNode>
+
+		<siteMapNode url="" title="Admin"  PageHeader="Admin" >
+			<siteMapNode url="~/Pages/Admin/BannerList.aspx" title="Upload Banner"  PageHeader="Upload Banner" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Admin/UserAdministration.aspx" title="Users Administration"  PageHeader="Users Administrations" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Setup/AdvertisementAdministration.aspx" title="Add/Delete Advertisement"  PageHeader="Add/Delete Advertisement" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Setup/MessageAdministration.aspx" title="Add/Delete Message"  PageHeader="Add/Delete Message" description=""  keywords=""  />
+
+		</siteMapNode>
+		<siteMapNode url="" title="Photo Gallery">
+			<siteMapNode url="~/Pages/Setup/Category.aspx" title="Photo Album"  PageHeader="Photo Album" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Setup/PhotographAdministration.aspx" title="Photo Gallery"  PageHeader="Photo Gallery" description=""  keywords=""  />
+		</siteMapNode>
+
+		<siteMapNode url="" title="Event"  >
+			<siteMapNode url="~/Pages/Setup/AddEditEvent.aspx" title="Add New Event"  PageHeader="Add/Edit Event" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Setup/EventAdministration.aspx" title="Event List"  PageHeader="Event List" description=""  keywords=""  />
+		</siteMapNode>
+
+		<siteMapNode url="" title="News">
+			<siteMapNode url="~/Pages/Setup/AddEditNews.aspx" title="Add New News"  PageHeader="Add/Edit News" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Setup/NewsAdmin.aspx" title="News List"  PageHeader="News List" description=""  keywords=""  />
+		</siteMapNode>
+
+		<siteMapNode url="" title="Resource">
+			<siteMapNode url="~/Pages/Admin/ResourceSetup.aspx" title="Resource Setup"  PageHeader="Resource Setup" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Setup/AddEditResource.aspx" title="Add New Resources"  PageHeader="Add/Edit Resource" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Setup/ResourceList.aspx" title="Resource List"  PageHeader="Resource List" description=""  keywords=""  />
+		</siteMapNode>
+
+		<siteMapNode url="" title="Poll"  >
+			<siteMapNode url="~/Pages/Setup/AddEditPoll.aspx" title="Add New Poll"  PageHeader="Add/Edit Poll" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Setup/PollAdministration.aspx" title="Poll List"  PageHeader="Poll List" description=""  keywords=""  />
+		</siteMapNode>
+
+		<siteMapNode url="http://mail.bcstelecom.org.bd/" title="Web Mail" PageHeader="Web Mail" description=""  keywords=" " />
+
+	</siteMapNode>
+
+</siteMap>

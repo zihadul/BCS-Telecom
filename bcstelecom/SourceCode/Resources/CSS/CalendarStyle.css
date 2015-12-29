@@ -1,0 +1,99 @@
+.calendar
+{
+  border:none;
+    margin: 0 auto;
+}
+
+.day
+{
+  width:90px;
+  height:70px;
+  text-align:right;
+  vertical-align:top;
+  font-family:Arial;
+  font-size:11px;
+  color:Black;
+  background-color:#FFFFFF;
+  border:solid 1px #C6C1AC;
+ 
+}
+
+.day2
+{
+  width:90px;
+  height:30px;
+  text-align:right;
+  vertical-align:top;
+  font-family:Arial;
+  font-size:11px;
+  color:Black;
+  background-color:#FFFFFF;
+  border:solid 1px #C6C1AC;
+  cursor: pointer;
+}
+
+
+.day2Custom
+{
+  width:90px;
+  height:30px;
+  text-align:right;
+  vertical-align:top;
+  font-family:Arial;
+  font-size:11px;
+  color:Black;
+  background-color: Green;
+  border:solid 1px #C6C1AC;
+  cursor: pointer;
+}
+
+
+
+.othermonthday
+{
+  background-color:#F5F3E5;
+}
+
+.month
+{
+  border-collapse:collapse;
+  border:solid 1px black;
+}
+
+.dayheader
+{
+  background-color:#E3E0CD;
+  background-image:url(../../Resources/Images/header_bg.gif);
+  color:#504C39;
+  font-family:Verdana;
+  font-size:11px;
+  text-align:center;
+  border-top:solid 1px #FFFFFF;
+  border-left:solid 1px #FFFFFF;
+  border-bottom:solid 1px #ACA899;
+  border-right:solid 1px #C6C1AC;
+  padding: 4px;
+}
+
+.title
+{
+  background-color:#7D9459;
+  background-image:url(../../Resources/Images/title_bg.gif);
+  border: 1px solid black;
+  border-bottom-width: 0px;
+}
+
+.title TD
+{
+  font-family:verdana;
+  font-size:11px;
+  font-weight:bold;
+  color:White;
+  padding-top:1px;
+  padding-bottom:1px;
+}
+
+.nextprev
+{
+  cursor:pointer;
+}

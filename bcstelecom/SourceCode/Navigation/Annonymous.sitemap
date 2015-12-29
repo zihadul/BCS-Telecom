@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/AnnonymousDummy.aspx" title="Home" description=""  keywords="" >
+
+		<siteMapNode url="~/Home" title="Home" PageHeader="Home" description=""  keywords="" />
+
+		<siteMapNode url="~/AboutUs.aspx" title="About Us" PageHeader="About Us" description=""  keywords=" " >
+			<siteMapNode url="~/ExecutiveCommittee" title="Executive Committee" PageHeader="Executive Committee" description=""  keywords=" "  />
+			<siteMapNode url="~/MemberDirectory" title="Member Directory" PageHeader="Member Directory" description=""  keywords=" "  />
+		</siteMapNode>
+
+		<siteMapNode url="~/Resource" title="Resource" PageHeader="Resource" description=""  keywords=" " />
+
+
+		<siteMapNode url="~/News" title="News" PageHeader="News" description=""  keywords=" "  />
+		<siteMapNode url="~/Event" title="Event" PageHeader="Event" description=""  keywords=" "  />
+
+		<siteMapNode url="~/ContactUs" title="Contact Us" PageHeader="Contact Us" description=""  keywords=" " />
+
+	</siteMapNode>
+
+</siteMap>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/OfficialDummy.aspx" title="Home" description="" >
+		<siteMapNode url="" title="Poll Setup">
+			<siteMapNode url="~/Pages/Setup/AddEditPoll.aspx" title="Add New Poll"  PageHeader="Add/Edit Poll" description=""  keywords=""  />
+			<siteMapNode url="~/Pages/Setup/PollAdministration.aspx" title="Poll List"  PageHeader="Poll List" description=""  keywords=""  />
+		</siteMapNode>
+		<siteMapNode url="~/Pages/Members/PhotoGallery.aspx" title="Photo Gallery" PageHeader="Photo Gallery" description=""  keywords=" "  />
+		<siteMapNode url="~/Pages/Members/EditProfile.aspx" title="Profile" PageHeader="Profile" description=""  keywords=" "  />
+		<siteMapNode url="~/MemberDirectory.aspx" title="Member Directory" PageHeader="Member Directory" description=""  keywords=" "  />
+		<siteMapNode url="http://www.facebook.com" title="Posts" PageHeader="Posts" description=""  keywords=" "  />
+
+	</siteMapNode>
+
+</siteMap>

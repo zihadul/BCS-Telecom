@@ -1,0 +1,59 @@
+
+<asp:Label ForeColor="Red" runat="server" skinId="skinPageMessage" />
+<asp:GridView SkinID="default" runat="server" AutoGenerateColumns="false" GridLines="Both"
+    CssClass="GridView" Width="100%" AllowPaging="true" PageSize="10" CellPadding="4" CellSpacing="3">
+    <HeaderStyle BorderWidth="1" BackColor="#F36F21" ForeColor="#ffffff"></HeaderStyle>
+    <AlternatingRowStyle BackColor="#DDE6D7"></AlternatingRowStyle>
+<PagerStyle CssClass="footerGV"  HorizontalAlign="Center" height="50px"/>
+</asp:GridView>
+
+<asp:GridView SkinID="gvexecutive" CssClass="gvexecutive" runat="server" AutoGenerateColumns="false" GridLines="Both"
+    Width="100%" AllowPaging="true" PageSize="100"> 
+      <HeaderStyle BorderWidth="1" BackColor="#F36F21" ForeColor="#ffffff"></HeaderStyle>
+    <PagerStyle Font-Bold="False" CssClass="PagerStyle" HorizontalAlign="Center"  />    
+</asp:GridView>
+<asp:GridView SkinID="gvexecutiveouter" runat="server" AutoGenerateColumns="false" GridLines="Both"
+    Width="100%" AllowPaging="true" PageSize="100" CellPadding="4" CellSpacing="3">   
+</asp:GridView>
+
+<asp:GridView SkinID="gvexecutiveinner" CssClass="gvexecutiveinner" runat="server" AutoGenerateColumns="false" GridLines="Both"
+   Width="100%" AllowPaging="true" PageSize="100" CellPadding="4" CellSpacing="3" BorderWidth="0">   
+</asp:GridView>
+
+<asp:GridView SkinID="memberprint" runat="server" AutoGenerateColumns="false" GridLines="Both"
+   Width="100%" AllowPaging="true" PageSize="10" CellPadding="4" CellSpacing="3">
+    <HeaderStyle CssClass="GridHeaderStyle" />
+    <AlternatingRowStyle BackColor="#DDE6D7"></AlternatingRowStyle>
+<PagerStyle CssClass="footerGV"  HorizontalAlign="Center" height="50px"/>
+</asp:GridView>
+
+<asp:GridView runat="server" AutoGenerateColumns="false" GridLines="Both" SkinID="gvGrid"
+    Width="100%" AllowPaging="true" PageSize="100" CellPadding="0" CellSpacing="0" der="0">
+</asp:GridView>
+
+<asp:GridView  skinID="skinGridList" runat="server" AutoGenerateColumns="False" Width="100%" GridLines="Both" CssClass="skiknGridList" BorderColor="black" BackColor="White" BorderWidth="1"
+               AllowPaging="True" >
+    <HeaderStyle BorderWidth="1" BackColor="#354A5F"></HeaderStyle>
+    <RowStyle BorderWidth="1"></RowStyle>
+    <AlternatingRowStyle BorderWidth="1"  BackColor="#f5f5f5"></AlternatingRowStyle>
+    <PagerStyle Font-Bold="False" CssClass="PagerStyle" HorizontalAlign="Center"  />  
+                                
+</asp:GridView>
+
+<asp:GridView  skinID="skingvUserList" runat="server" AutoGenerateColumns="False" Width="100%" GridLines="Both" CssClass="skingvUserList" BorderColor="black" BackColor="White" BorderWidth="1"
+               AllowPaging="True" >
+    <HeaderStyle BorderWidth="1" BackColor="#354A5F"></HeaderStyle>
+    <RowStyle BorderWidth="1"></RowStyle>
+    <AlternatingRowStyle BorderWidth="1"  BackColor="#f5f5f5"></AlternatingRowStyle>
+  <PagerStyle CssClass="memberdirectory-pager" HorizontalAlign="Center" BorderWidth="0" /> 
+                                
+</asp:GridView>
+
+<asp:GridView SkinID="skingvMemberDirectory" runat="server" AutoGenerateColumns="false" 
+              Width="100%" CssClass="skingvMemberDirectory">
+               <HeaderStyle BorderWidth="1" BackColor="#F36F21" ForeColor="#ffffff"></HeaderStyle>
+              
+                 <PagerStyle CssClass="memberdirectory-pager" HorizontalAlign="Center" BorderWidth="0" /> 
+</asp:GridView>
+<asp:Image SkinID="imgProgress" runat="server" ImageUrl="~/Resources/Images/loading.gif" 
+    Height="20px" />
